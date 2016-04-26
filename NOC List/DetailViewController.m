@@ -71,7 +71,6 @@
         //     to read "Level #". How do we do that?
         //
 
-
         self.coverNameLabel.text = self.agent.coverName;
         self.realNameLabel.text = self.agent.realName;
         self.accessLevelLabel.text = [NSString stringWithFormat:@"Level # %i", (int)self.agent.accessLevel];

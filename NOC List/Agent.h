@@ -14,6 +14,6 @@
 @property (nonatomic) NSString *realName;
 @property (assign)    NSInteger accessLevel;
 
-+ (Agent *)agentWithDictionary:(NSDictionary *)agentDict;
++ (Agent *)agentWithDictionary:(NSDictionary *) agentDict;
 
 @end
